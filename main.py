@@ -183,3 +183,23 @@ if url != "":
             sl.success("The website look's clean", icon="✅")
         else:
             sl.error("The website look's suspicious", icon="🚨")
+            
+
+sl.header("Description :")
+sl.write("""
+    This is a Team Project
+    This a website which is used to detect phishing website. In this we are using a machine learning technology to regonize 
+    if the webseite is stealing your data.
+
+    #### Our Team:
+     * Shabari K S (Myself)
+     * Sathyaram R
+     * Viyasan S
+""")
+
+sl.subheader("Note:")
+sl.write("""
+    1. Specify the link with the start 'https://www.<sitename>...'
+    2. If you are not specified with the 'https://www.' it may regonize the link as a suspicious
+""")
+
