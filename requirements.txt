@@ -1,0 +1,10 @@
+streamlit
+pickle
+requests
+tldextract
+socket
+whois
+googlesearch
+pandas
+bz2file
+BeautifulSoup4
