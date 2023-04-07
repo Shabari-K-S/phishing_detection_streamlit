@@ -185,6 +185,7 @@ if url != "":
             sl.error("The website look's suspicious", icon="🚨")
             
 
+sl.write("---")
 sl.header("Description :")
 sl.write("""
     This is a Team Project
