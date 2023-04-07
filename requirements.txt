@@ -5,3 +5,4 @@ whois
 pandas
 bz2file
 BeautifulSoup4
+googlesearch-python
