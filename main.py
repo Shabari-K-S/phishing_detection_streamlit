@@ -16,6 +16,29 @@ sl.set_page_config(page_title='Phishing Page Detection', page_icon = "hacker.png
 data = bz2.BZ2File('model2.pbz2', 'rb')
 pipe = pickle.load(data)
 
+style = """
+<style>
+.stButton > button{
+    all : unset;
+    padding: 5px 40px;
+    border : 1px solid;
+    border-radius: 17px 0 17px 0;
+    transition: 0.5s ease-in-out;
+    color: #a0a0a0;
+}
+
+.stButton > button:hover{
+    all : unset;
+    padding: 5px 40px;
+    border : 1px solid;
+    border-radius: 0px 17px 0px 17px;
+    transition: 0.5s ease-in-out;
+    color:#fff;
+}
+</style>
+"""
+
+sl.markdown(f"{style}",unsafe_allow_html=True)
 
 
 title = 'Phishing Page Detection'
