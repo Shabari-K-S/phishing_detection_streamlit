@@ -9,15 +9,22 @@ import whois
 from datetime import datetime
 from googlesearch import search
 import pandas as pd
+import bz2file as bz2
 
 
 
-pipe = pickle.load(open('dataset/model.pkl', 'rb'))
+data = bz2.BZ2File('model2.pbz2', 'rb')
+pipe = pickle.load(data)
 
-sl.title("Phishing page Detection ")
 
 
-url = sl.text_input("Enter Your Url :")
+title = 'Phishing Page Detection'
+
+sl.markdown(f"<h1 style='text-align: center;'>{title}</h1>", unsafe_allow_html=True)
+
+
+
+url = sl.text_input(" Enter Your Url :")
 
 if url != "":
 
@@ -173,7 +180,6 @@ if url != "":
             print(input_df)
         print("\n\n\n",result)
         if result>0.5:
-            sl.header("The website look's clean")
+            sl.success("The website look's clean", icon="✅")
         else:
-            sl.header("The website look's suspicious")
-            
+            sl.error("The website look's suspicious", icon="🚨")
