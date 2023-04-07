@@ -221,7 +221,7 @@ if url != "":
         if result==1:
             sl.success("The website look's clean", icon="✅")
         elif result==-1:
-            sl.warning('The Site Not Found", icon="⚠️")
+            sl.warning("The Site Not Found", icon="⚠️")
         else:
             sl.error("The website look's suspicious", icon="🚨")
             
