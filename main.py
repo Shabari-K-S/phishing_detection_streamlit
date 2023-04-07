@@ -196,7 +196,7 @@ with sl.expander("About"):
          * This ensures that the website's detection capabilities stay up-to-date and effective against evolving threats.
          * Overall, our phishing detection website provides a reliable and user-friendly solution for individuals and organizations to stay protected against phishing attacks.
 
-        #### Our Team:
+        #### Our Team Members:
          * Shabari K S (Myself)
          * Sathyaram R
          * Viyasan S
