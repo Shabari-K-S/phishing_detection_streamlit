@@ -33,7 +33,6 @@ style = """
     border : 1px solid;
     border-radius: 0px 17px 0px 17px;
     transition: 0.5s ease-in-out;
-    color:#fff;
 }
 .stButton > button:focus:not(:active){
     all : unset;
