@@ -203,7 +203,7 @@ with sl.expander("About"):
         1. Specify the link with the start 'https://www.<sitename>...'
         2. If you are not specified with the 'https://www.' it may regonize the link as a suspicious
     """)
-    st.write("###")
-    st.write("###")
+    sl.write("###")
+    sl.write("###")
     
 
