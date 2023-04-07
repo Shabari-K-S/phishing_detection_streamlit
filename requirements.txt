@@ -7,3 +7,7 @@ bz2file
 BeautifulSoup4
 scikit-learn 
 numpy
+google
+google-search
+google-cloud 
+googlesearch-python
