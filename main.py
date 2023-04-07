@@ -77,9 +77,9 @@ if url != "":
             # Use BeautifulSoup to parse the HTML content and extract features
             
         except:
-            result = 0
+            result = -1
         
-        if result!=0:
+        if result==1:
             soup = BeautifulSoup(html, 'html.parser')
             # Length of URL
             length_url = len(url)
@@ -218,8 +218,10 @@ if url != "":
             
             print(input_df)
         print("\n\n\n",result)
-        if result>0.5:
+        if result==1:
             sl.success("The website look's clean", icon="✅")
+        elif result==-1:
+            sl.warning('The Site Not Found", icon="⚠️")
         else:
             sl.error("The website look's suspicious", icon="🚨")
             
