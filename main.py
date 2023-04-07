@@ -11,7 +11,7 @@ from googlesearch import search
 import pandas as pd
 import bz2file as bz2
 
-
+sl.set_page_config(page_title='Phishing Page Detection', page_icon = "hacker.png")
 
 data = bz2.BZ2File('model2.pbz2', 'rb')
 pipe = pickle.load(data)
