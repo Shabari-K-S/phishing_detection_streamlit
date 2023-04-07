@@ -230,7 +230,7 @@ with sl.expander("About"):
          * Our team has developed a state-of-the-art phishing detection website based on machine learning algorithms. 
          * The website is designed to provide a secure and reliable platform for users to check the authenticity of suspicious links
          * The website's machine learning model uses a combination of natural language processing (NLP) and computer vision techniques to analyze the content and structure of the link. 
-         * The model is trained on a large dataset of phishing emails and legitimate emails to identify patterns and characteristics that distinguish them from one another.
+         * The model is trained on a large dataset of phishing links and legitimate links to identify patterns and characteristics that distinguish them from one another.
          * Our team has also implemented a continuous learning system that allows the model to adapt and improve over time as it encounters new phishing techniques and patterns. 
          * This ensures that the website's detection capabilities stay up-to-date and effective against evolving threats.
          * Overall, our phishing detection website provides a reliable and user-friendly solution for individuals and organizations to stay protected against phishing attacks.
