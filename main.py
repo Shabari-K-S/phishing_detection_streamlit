@@ -35,6 +35,22 @@ style = """
     transition: 0.5s ease-in-out;
     color:#fff;
 }
+.stButton > button:focus:not(:active){
+    all : unset;
+    padding: 5px 40px;
+    border : 1px solid;
+    border-radius: 17px 17px 17px 17px;
+    transition: 0.5s ease-in-out;
+    color:#fff;
+}
+.stButton > button:focus{
+    all : unset;
+    padding: 5px 40px;
+    border : 1px solid;
+    border-radius: 17px 17px 17px 17px;
+    transition: 0.5s ease-in-out;
+    color:#fff;
+    box-shadow : #fff;
 </style>
 """
 
