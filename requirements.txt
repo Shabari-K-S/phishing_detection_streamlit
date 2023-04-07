@@ -1,7 +1,7 @@
 streamlit
 requests
 tldextract
-whois
+python-whois
 pandas
 bz2file
 BeautifulSoup4
@@ -11,3 +11,4 @@ google
 google-search
 google-cloud 
 googlesearch-python
+whois
