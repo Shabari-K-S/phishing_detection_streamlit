@@ -39,7 +39,7 @@ style = """
     all : unset;
     padding: 5px 40px;
     border : 1px solid;
-    border-radius: 17px 17px 17px 17px;
+    border-radius: 10px 10px 10px 10px;
     transition: 0.5s ease-in-out;
     color:#fff;
 }
@@ -47,7 +47,7 @@ style = """
     all : unset;
     padding: 5px 40px;
     border : 1px solid;
-    border-radius: 17px 17px 17px 17px;
+    border-radius: 10px 10px 10px 10px;
     transition: 0.5s ease-in-out;
     color:#fff;
     box-shadow : #fff;
