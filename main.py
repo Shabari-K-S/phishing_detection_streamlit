@@ -57,9 +57,10 @@ title = 'Phishing Page Detection'
 
 sl.markdown(f"<h1 style='text-align: center;'>{title}</h1>", unsafe_allow_html=True)
 
-
-
 url = sl.text_input(" Enter Your Url :")
+
+if  "https://" not in url:
+    url = "https://" + url
 
 if url != "":
 
