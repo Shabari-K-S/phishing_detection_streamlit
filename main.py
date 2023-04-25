@@ -164,8 +164,8 @@ if url != "":
             except:
                 domain_in_title = 0
             # Domain age (if available)
-            whois = whois.whois(url)
             try:
+                whois = whois.whois(url)
                 if 'creation_date' in whois:
                     domain_age = (datetime.now().date() - whois['creation_date'].date()).days
                 else:
