@@ -176,7 +176,7 @@ if url != "":
             # Google index status (1 if indexed, 0 if not)
             try :
                 google_index = int('google.com' in requests.get(f"https://www.google.com/search?q={url}").text)
-            excet :
+            except :
                 google_index = 0
             # Page rank (if available)
             try:
