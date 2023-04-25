@@ -174,8 +174,10 @@ if url != "":
                 domain_age=0
 
             # Google index status (1 if indexed, 0 if not)
-            google_index = int('google.com' in requests.get(f"https://www.google.com/search?q={url}").text)
-
+            try :
+                google_index = int('google.com' in requests.get(f"https://www.google.com/search?q={url}").text)
+            excet :
+                google_index = 0
             # Page rank (if available)
             try:
                 page_rank = google_pagerank(url)
