@@ -53,7 +53,7 @@ style = """
 sl.markdown(f"{style}",unsafe_allow_html=True)
 
 
-title = 'Phishing Page Detection'
+title = 'Phishing Page Detection (Visecure)'
 
 sl.markdown(f"<h1 style='text-align: center;'>{title}</h1>", unsafe_allow_html=True)
 
@@ -232,12 +232,6 @@ with sl.expander("About"):
 3. O. Vishnubalan - Front-end Developer and UI/UX Designer: responsible for designing and implementing the user interface for the phishing page detection system, making it intuitive and user-friendly.\n
 4. R. Abilash Kumar - Back-end Developer and Database Expert: responsible for designing and implementing the back-end infrastructure for the system, including the database and server-side functionality.\n
 5. S. Vivek - Quality Assurance and Testing Specialist: responsible for testing the system thoroughly to ensure it is functioning properly and meets the requirements, identifying and reporting any issues, and providing feedback for improvements.\n
-    """)
-
-    sl.subheader("Note:")
-    sl.write("""
-        1. Specify the link with the start 'https://www.<sitename>...'
-        2. If you are not specified with the 'https://www.' it may regonize the link as a suspicious
     """)
     sl.write("###")
     sl.write("###")
