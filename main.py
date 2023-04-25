@@ -227,11 +227,11 @@ with sl.expander("About"):
     sl.header("Description :")
     sl.write("""
     ## Team Name - Startup Pro
-1.S. Viyasan - Project Manager and Lead Developer: responsible for leading the project and managing the team's workflow, setting timelines and goals, and overseeing the development of the phishing page detection system.
-2.V. Swathi - Data Scientist and Machine Learning Expert: responsible for designing and implementing the machine learning algorithms that will be used to detect phishing pages, as well as analyzing data and making recommendations for improving the system.
-3.O. Vishnubalan - Front-end Developer and UI/UX Designer: responsible for designing and implementing the user interface for the phishing page detection system, making it intuitive and user-friendly.
-4.R. Abilash Kumar - Back-end Developer and Database Expert: responsible for designing and implementing the back-end infrastructure for the system, including the database and server-side functionality.
-5.S. Vivek - Quality Assurance and Testing Specialist: responsible for testing the system thoroughly to ensure it is functioning properly and meets the requirements, identifying and reporting any issues, and providing feedback for improvements.
+1.S. Viyasan - Project Manager and Lead Developer: responsible for leading the project and managing the team's workflow, setting timelines and goals, and overseeing the development of the phishing page detection system.\n
+2.V. Swathi - Data Scientist and Machine Learning Expert: responsible for designing and implementing the machine learning algorithms that will be used to detect phishing pages, as well as analyzing data and making recommendations for improving the system.\n
+3.O. Vishnubalan - Front-end Developer and UI/UX Designer: responsible for designing and implementing the user interface for the phishing page detection system, making it intuitive and user-friendly.\n
+4.R. Abilash Kumar - Back-end Developer and Database Expert: responsible for designing and implementing the back-end infrastructure for the system, including the database and server-side functionality.\n
+5.S. Vivek - Quality Assurance and Testing Specialist: responsible for testing the system thoroughly to ensure it is functioning properly and meets the requirements, identifying and reporting any issues, and providing feedback for improvements.\n
     """)
 
     sl.subheader("Note:")
