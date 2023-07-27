@@ -5,7 +5,7 @@ python-whois
 pandas
 bz2file
 BeautifulSoup4
-scikit-learn 
+scikit-learn===1.2.2
 numpy
 google
 google-search
